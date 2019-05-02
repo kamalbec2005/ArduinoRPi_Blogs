@@ -1,0 +1,21 @@
+References:
+1) http://www.stm32duino.com
+2) https://www.youtube.com/watch?v=sB4lZ2zG5V8
+
+
+Procedure:
+1) Open IDE
+2) Go to preference -> 'Additional boards managerhttps' 
+  Copy and paste the below link:
+  //raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json
+4) Go to: Tools->Boards->Boards mnager
+  Check for STM32 boards, click on install.
+5) Select 
+  Board: Nucleo-64
+  Baords part numbet: STM32L476RG
+  Port: USB port number where STM32 is connected.
+6) Go to: File-> Examples-> Blink LED 
+7) Compile and load the program...
+
+Congratulations ...... :) :)
+
